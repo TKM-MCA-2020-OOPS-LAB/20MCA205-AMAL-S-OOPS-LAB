@@ -58,7 +58,7 @@ public class employee
 		     e[i].display();
 	     }
 	     else
-		  System.out.println("Employee details are not found!?");	
+		  System.out.println(" Not found!?");	
 		
 	}
 }
