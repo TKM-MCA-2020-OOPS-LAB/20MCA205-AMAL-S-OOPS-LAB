@@ -2,11 +2,11 @@ package co3_q4;
 
 import java.util.Scanner;
 
-public class publisher {
+public class Publisher {
 	String pub_name;
 	Scanner sc=new Scanner(System.in);
 	
-	publisher()
+	Publisher()
 	{
 		System.out.println("Enter publisher name");
 		pub_name=sc.nextLine();
@@ -14,7 +14,7 @@ public class publisher {
 	}
 }
 
-class book extends publisher {
+class book extends Publisher {
 	String book_name,author;
 	int page_no;
 	Scanner bk=new Scanner(System.in);
@@ -99,3 +99,5 @@ class fictions extends book {
 	mm.close();
 	}
 }
+
+	
