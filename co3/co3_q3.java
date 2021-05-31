@@ -2,7 +2,7 @@ package co3_q3;
 
 import java.util.Scanner;
 
-public class person {
+class person {
 	String memb_name;
 	String gender;
 	String address;
@@ -28,7 +28,7 @@ class Employee extends person {
 	double salary;
 	Scanner em =new Scanner(System.in);
 	
-public Employee() {
+ Employee() {
 	System.out.println("enter emp_id:");
 	emp_id=em.nextInt();
 	System.out.println("enter company_name:");
@@ -46,7 +46,7 @@ class Teacher extends Employee {
 	int Teacher_id;
 	Scanner th=new Scanner(System.in);
 	
-public Teacher() {
+ Teacher() {
 	System.out .println("enter subject:");
 	subject=th.next();
 	System.out.println("enter department:");
@@ -68,7 +68,9 @@ public void display() {
 	System.out.println("Department details: "+department);
 	System.out.println("Teacher id: "+Teacher_id);
 	}
- public static void main(String[] args) {
+}
+public class co3_q3{
+	public static void main(String[] args) {
 	Scanner sc=new Scanner(System.in);
 	int i;
 	System.out.println("Enter number of persons: ");
@@ -86,6 +88,8 @@ public void display() {
 
   }
 }
+
+
 
 
 

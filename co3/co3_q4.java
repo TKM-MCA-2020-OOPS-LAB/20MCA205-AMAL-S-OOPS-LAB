@@ -2,7 +2,7 @@ package co3_q4;
 
 import java.util.Scanner;
 
-public class Publisher {
+class Publisher {
 	String pub_name;
 	Scanner sc=new Scanner(System.in);
 	
@@ -66,6 +66,9 @@ class fictions extends book {
 		System.out.println("Page is "+page_no);
 		
 	}
+}
+	
+public class co3_q4{
 
 	public static void main(String[] args) {
 		int a,b,c;
@@ -99,5 +102,6 @@ class fictions extends book {
 	mm.close();
 	}
 }
+
 
 	
