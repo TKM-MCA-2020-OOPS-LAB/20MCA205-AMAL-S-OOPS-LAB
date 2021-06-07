@@ -19,8 +19,7 @@ public class operations implements math {
         System.out.println("Enter the 2nd number:");
         y=op.nextInt();
         
-	
-    }
+	}
 
     @Override
 	public void addition() {
@@ -47,6 +46,4 @@ public class operations implements math {
 	}
 
 }
-
-
 
