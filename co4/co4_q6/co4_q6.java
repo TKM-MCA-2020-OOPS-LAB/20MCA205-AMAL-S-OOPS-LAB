@@ -14,7 +14,7 @@ public class co4_q6 {
 		b.sleep(200);
     }
 }
-class fibonacci extends Thread{
+class fibonacci implements Runnable{
 	public void run(){
 		int n=20, a1=0, a2=1;
 		Scanner sc= new Scanner(System.in);
@@ -27,7 +27,7 @@ class fibonacci extends Thread{
 		}
 	}
 }
-class even extends Thread{
+class even implements Runnable{
 	public void run() {
 		int number, i;
 		Scanner sc = new Scanner(System.in);
