@@ -13,9 +13,12 @@ public class co4_q12 {
  	    }
         System.out.println("Initial list of employees: " +employee);  
         System.out.println("Popped employee: " + employee.pop());  
-        System.out.println("Popped employee: " + employee.pop()); 
-        String rem_emp = employee.remove(2);
+        System.out.println("Popped employee: " + employee.pop());
+        System.out.println("List of employees after pop operation " +employee); 
+        System.out.println("\nEnter the index of the employee to be removed:");
+		int index = sc.nextInt();
+		String rem_emp = employee.remove(index);
         System.out.println("Removing specified employee: "+ rem_emp);
-        System.out.println("List of employees after pop operation " +employee);  
+        System.out.println("Final List of employee:" +employee);  
     }  
 }  
